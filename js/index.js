@@ -1,10 +1,4 @@
-      // Loading Screen
-      window.addEventListener('load', () => {
-          const loading = document.getElementById('loading');
-          setTimeout(() => {
-              loading.classList.add('hidden');
-          }, 1000);
-      });
+
       // Theme Toggle
       const themeToggle = document.getElementById('themeToggle');
       const themeIcon = document.getElementById('themeIcon');
