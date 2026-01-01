@@ -222,3 +222,29 @@
       console.log('%c👋 Welcome to my portfolio!', 'color: #6366f1; font-size: 20px; font-weight: bold;');
       console.log('%cInterested in working together? Reach out!', 'color: #a855f7; font-size: 14px;');
       console.log('%c📧 malllam146@gmail.com', 'color: #6366f1; font-size: 14px;');
+// Animate Learning Topics
+const learningObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            const topics = entry.target.querySelectorAll('.topic-item');
+            topics.forEach((topic, index) => {
+                setTimeout(() => {
+                    topic.style.opacity = '1';
+                    topic.style.transform = 'translateX(0)';
+                }, index * 100);
+            });
+            learningObserver.unobserve(entry.target);
+        }
+    });
+}, { threshold: 0.3 });
+
+const learningSection = document.querySelector('#learning');
+if (learningSection) {
+    const topicItems = learningSection.querySelectorAll('.topic-item');
+    topicItems.forEach(item => {
+        item.style.opacity = '0';
+        item.style.transform = 'translateX(-20px)';
+        item.style.transition = 'all 0.5s ease';
+    });
+    learningObserver.observe(learningSection);
+}
