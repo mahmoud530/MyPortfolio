@@ -1,0 +1,263 @@
+\documentclass[letterpaper,10pt]{article}
+
+% Dependencies
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{bookmark}
+\usepackage{lastpage}
+\usepackage{xcolor}
+
+% Fonts
+\usepackage{CormorantGaramond}
+\usepackage{charter}
+
+% Colors
+\definecolor{accentTitle}{HTML}{0e6e55}
+\definecolor{accentText}{HTML}{0e6e55}
+\definecolor{accentLine}{HTML}{a16f0b}
+
+% Page Style
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\urlstyle{same}
+\addtolength{\oddsidemargin}{-0.7in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-0.7in}
+\addtolength{\textheight}{1.4in}
+\setlength{\multicolsep}{-3.0pt}
+\raggedbottom
+\raggedright
+
+% Section Heading
+\titleformat{\section}{
+  \vspace{-5pt}
+  \color{accentText}
+  \raggedright\large\bfseries
+}{}{0em}{}[\color{accentLine}\titlerule]
+
+% Custom Commands
+\newcommand{\headingBf}[2]{\hspace{10pt}\textbf{#1}\hfill\textbf{#2}\\}
+\newcommand{\headingIt}[2]{\hspace{10pt}\textit{#1}\hfill\textit{#2}\\}
+\newenvironment{resume_list}{
+  \vspace{-7pt}
+  \begin{itemize}[itemsep=-2px, parsep=1pt, leftmargin=30pt]
+}{
+  \end{itemize}
+}
+
+\begin{document}
+
+% Heading
+\begin{center}
+    {\Huge\color{accentTitle} Mahmoud Allam Nasr} \\
+    \href{tel:01158231391}{\faPhone\ 01158231391} ~ |
+    ~ \href{mailto:malllam146@gmail.com}{\faEnvelope\ malllam146@gmail.com} ~ |
+    ~ \href{https://linkedin.com/in/mahmoud-alllam}{\faLinkedin\ linkedin.com/in/mahmoud-alllam} ~ |
+    ~ \href{https://github.com/mahmoud530}{\faGithub\ github.com/mahmoud530} ~ |
+    ~ \href{https://mahmoud530.github.io/MyPortfolio/}{\faGlobe\ mahmoudallam.dev}
+\end{center}
+
+% Summary
+\section{Summary}
+Back-End Web Developer with hands-on experience in PHP, Laravel, MySQL, and growing expertise in ASP.NET Core and C\#. Skilled in building scalable and secure web applications, designing and optimizing databases, and ensuring smooth user experiences. Proven ability to lead technical teams, deliver full-stack projects, and teach web development to peers. Actively seeking opportunities to apply technical expertise and grow within dynamic, growth-driven development teams.
+
+% Technical Skills
+\section{Technical Skills}
+\begin{multicols}{2}
+  \begin{itemize}[leftmargin=10pt]
+    \item \textbf{Languages:} PHP, JavaScript, HTML, CSS, MySQL, C\#
+    \item \textbf{Frameworks:} Laravel, Bootstrap, ASP.NET Core (learning)
+    \item \textbf{Tools:} Git, GitHub, Notion, Visual Studio Code, XAMPP, Command Line
+    \item \textbf{Database:} MySQL, phpMyAdmin
+    \item \textbf{Concepts:} OOP, MVC Architecture, RESTful APIs, AJAX
+  \end{itemize}
+\end{multicols}
+
+% Soft Skills
+\section{Soft Skills}
+\begin{itemize}
+  \item Communication, Presentation, Teamwork, Leadership, Time Management, Adaptability, Problem-Solving
+\end{itemize}
+
+% Education
+\section{Education}
+\headingBf{Alson High Institute for Tourism and Hotels, Cairo}{Expected 2026}
+\headingIt{Bachelor's Degree in Tourism Studies - Business Management}{}
+
+% Currently Learning
+\section{Currently Learning}
+\headingBf{Backend Development Track -- Root Academy}{Present}
+\begin{resume_list}
+  \item Comprehensive backend development program focusing on ASP.NET Core, C\#, and advanced system design principles.
+  \item Covering modern web architecture, scalable system design patterns, Microservices, and API Security.
+\end{resume_list}
+
+% Experience
+\section{Experience}
+
+\headingBf{Coding Instructor -- 3C Coding School (Remote)}{Nov 2025 -- Present}
+\begin{resume_list}
+  \item Teaching Python, HTML, CSS, and Block-based programming to children online.
+  \item Creating interactive lessons and hands-on coding exercises.
+  \item Developing problem-solving and computational thinking skills in young learners.
+  \item Adapting teaching methods to different learning styles and age groups.
+\end{resume_list}
+
+\headingBf{Head IT -- SCCI (Student Activity)}{Oct 2025 -- Present}
+\begin{resume_list}
+  \item Led the IT Committee of SCCI, managing a 12-member technical team (Frontend, Backend, and UI/UX).
+  \item Developed and maintained SCCI's internal web systems and tools to support all committees.
+  \item Organized and supervised two full-stack projects throughout the season, integrating modern frameworks (Laravel, JavaScript).
+  \item Designed and delivered a structured technical training program covering HTML, CSS, JS, PHP, OOP, and Laravel.
+  \item Fostered a collaborative and motivating environment focusing on teamwork, problem-solving, and continuous learning.
+\end{resume_list}
+
+\headingBf{Web Development -- ITI Summer Training}{Aug 2025 -- Sept 2025}
+\begin{resume_list}
+  \item Completed 22 intensive training sessions (126 hours) covering HTML, CSS, JavaScript, PHP, Laravel, and OOP.
+  \item Gained practical experience through hands-on tasks and coding exercises assigned after each session.
+  \item Collaborated with peers to design and implement a final project: a Company Management System built using PHP and Laravel.
+\end{resume_list}
+
+\headingBf{Back-End Developer Intern -- Softechnova Enterprises (Remote)}{May 2025 -- Jun 2025}
+\begin{resume_list}
+  \item Collaborated remotely with the development team on existing PHP-based systems.
+  \item Enhanced authentication logic by debugging and refactoring backend code to improve performance and security.
+  \item Gained experience in professional remote team collaboration workflows.
+\end{resume_list}
+
+\headingBf{Web Development Instructor -- SCCI (Student Activity)}{Dec 2024 -- Jul 2025}
+\begin{resume_list}
+  \item Delivered practical training sessions on front-end web development for student members.
+  \item Supported junior members in building their own projects and solving technical problems.
+  \item Developed instructional content and collaborated with other instructors to improve learning outcomes.
+\end{resume_list}
+
+\headingBf{IT Member -- SCCI (Student Activity)}{Oct 2024 -- Jul 2025}
+\begin{resume_list}
+  \item Collaborated on internal web development projects for the student organization using both front-end and back-end technologies.
+  \item Assisted in organizing tech workshops and managing digital assets for internal systems.
+  \item Contributed to troubleshooting and maintaining technical infrastructure during student events.
+\end{resume_list}
+
+\headingBf{Sales Agent Intern -- EDEG Company}{Nov 2024 -- Dec 2024}
+\begin{resume_list}
+  \item Identified potential clients and maintained communication via calls and email.
+  \item Assisted call-in customers with inquiries and product information.
+\end{resume_list}
+
+% Projects
+\section{Projects}
+
+\headingBf{SCCI Season 26 Platform}{Dec 2025 -- Present}
+\headingIt{IT Head \& Full Stack Developer}{}
+\begin{resume_list}
+  \item Built the official digital hub for SCCI Season 26 -- a comprehensive LMS handling workshop materials, task submissions, attendance tracking, and detailed grading systems.
+  \item Implemented role-based access control for Crew and Participants, built with PHP (Native MVC Architecture) and MySQL.
+  \item \href{https://github.com/mahmoud530/SCCI-Season26-Platform}{\textbf{GitHub}} ~|~ \href{https://scci26.site/}{\textbf{Live Demo}}.
+\end{resume_list}
+
+\headingBf{E-commerce Clothing Store (BaseMood)}{Jul 2025 -- Present}
+\headingIt{Full Stack Developer}{}
+\begin{resume_list}
+  \item Built a complete dynamic e-commerce platform for a clothing brand, integrating both client and admin panels.
+  \item Developed using \textbf{HTML, CSS, JavaScript, AJAX, OOP, PHP, and MySQL}.
+  \item Implemented key features: product catalog, cart system, wishlist, reviews, and order tracking.
+  \item Designed secure authentication and admin dashboard for product and order management.
+  \item \href{https://github.com/mahmoud530/BaseMood}{\textbf{View on GitHub}}.
+\end{resume_list}
+
+\headingBf{SCCI Workshops Registration System}{Nov 2025 -- Present}
+\headingIt{Full Stack Developer}{}
+\begin{resume_list}
+  \item Developed a full-featured web application to manage workshop registrations for student organizations.
+  \item Built user-friendly registration form, secure data handling, and a powerful admin dashboard for managing participants.
+  \item Implemented with \textbf{PHP, MySQL, JavaScript, and AJAX}.
+  \item \href{https://github.com/mahmoud530/SCCI-Workshops-Registration-System}{\textbf{View on GitHub}}.
+\end{resume_list}
+
+\headingBf{CRUD Laravel Project}{Aug 2025 -- Sept 2025}
+\headingIt{Backend Developer}{}
+\begin{resume_list}
+  \item Built during ITI training: a comprehensive CRUD application with full MVC architecture and RESTful API design.
+  \item Implemented Create, Read, Update, Delete operations following Laravel best practices.
+  \item \href{https://github.com/mahmoud530/CRUD-Laravel-Project}{\textbf{View on GitHub}}.
+\end{resume_list}
+
+\headingBf{Employee Management System}{May 2025 -- Jul 2025}
+\headingIt{Full Stack Developer}{}
+\begin{resume_list}
+  \item Developed a role-based employee management system using \textbf{PHP, MySQL, HTML, CSS, Bootstrap, and JavaScript}.
+  \item Implemented secure user authentication with image upload, login/register, and session management.
+  \item Designed multi-role access: \textbf{admin}, \textbf{super admin}, and \textbf{user}, each with specific permissions.
+  \item Built dynamic dashboards with live data updates and integrated \textbf{live search and filters} using AJAX.
+  \item \href{https://github.com/mahmoud530/management-system}{\textbf{View on GitHub}}.
+\end{resume_list}
+
+\headingBf{Student Activity Platform (SCCI-25)}{Dec 2024 -- Oct 2025}
+\headingIt{Full Stack Developer}{}
+\begin{resume_list}
+  \item Built and maintained the back end using PHP and MySQL.
+  \item Designed responsive UI using HTML, CSS, and JS with mobile compatibility.
+  \item Integrated mobile and website components for a unified platform.
+  \item \href{https://github.com/mahmoud530/SCCI-25}{\textbf{View on GitHub}}.
+\end{resume_list}
+
+\headingBf{Freelancer Platform (Tawarud)}{Jan 2024 -- Oct 2024}
+\headingIt{Team Leader and Back-End Developer}{}
+\begin{resume_list}
+  \item Led team development and managed timeline tracking for the project.
+  \item Managed all database interactions and server-side logic using PHP and MySQL.
+  \item \href{https://github.com/mahmoud530/tawarud}{\textbf{View on GitHub}}.
+\end{resume_list}
+
+\headingBf{To-Do List Application (ToDoHive)}{May 2024 -- Oct 2024}
+\headingIt{Team Leader and Back-End Developer}{}
+\begin{resume_list}
+  \item Created server logic for to-do app using PHP and MySQL.
+  \item Ensured full integration with the front-end features.
+  \item \href{https://github.com/mahmoud530/ToDoHive}{\textbf{View on GitHub}}.
+\end{resume_list}
+
+\headingBf{Personal Portfolio Website}{Nov 2025}
+\headingIt{Front-End Developer}{}
+\begin{resume_list}
+  \item Designed and developed a personal portfolio using HTML, CSS, and JavaScript to showcase projects and achievements.
+  \item Hosted live on GitHub Pages.
+  \item \href{https://mahmoud530.github.io/MyPortfolio/}{\textbf{View Demo}}.
+\end{resume_list}
+
+% Courses and Activities
+\section{Courses and Student Activities}
+\begin{resume_list}
+  \item Backend Development Track -- Root Academy (In Progress)
+  \item Delegate -- Three DOS Web Dev
+  \item English Program -- English Capsules (B1+)
+  \item Programming Track -- Innovation Area
+\end{resume_list}
+
+% Certificates
+\section{Certificates}
+\begin{resume_list}
+  \item Full-Stack Web Development using PHP (126 hrs) -- ITI Summer Training (2025)
+  \item Best Member -- IT Department, SCCI (2025)
+  \item Best Leader -- Three DOS (2024)
+  \item Hard Worker Award -- Three DOS (2024)
+  \item English Student (B1+ Level) -- English Capsules Language Program (2024)
+  \item Programming Track Certificate -- Innovation Training (2025)
+  \item Three DOS Conference Completion (2024)
+  \item Delegate Certificate -- Three DOS Web Dev (2025)
+  \item Project Completion -- STRIDES Company (2024)
+  \item Project Completion -- INETWORK Solutions (2024)
+  \item Project Completion -- INSTANT Company (2024)
+\end{resume_list}
+
+\end{document}
