@@ -149,7 +149,7 @@
       // Typing effect for hero subtitle (optional enhancement)
       const subtitle = document.querySelector('.hero-subtitle');
       if (subtitle) {
-          const text = subtitle.textContent;
+          const text = subtitle.textContent.trim().replace(/\s+/g, ' ');
           subtitle.textContent = '';
           let i = 0;
           
@@ -167,7 +167,7 @@
       const sections = document.querySelectorAll('section[id]');
       
       const highlightNav = () => {
-          const scrollY = window.pageYOffset;
+          const scrollY = window.scrollY || window.pageYOffset;
           
           sections.forEach(section => {
               const sectionHeight = section.offsetHeight;
