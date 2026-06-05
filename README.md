@@ -142,13 +142,6 @@ Back-End Web Developer with hands-on experience in PHP, Laravel, MySQL, and grow
 - Ensured full integration with the front-end features.
 - [View on GitHub](https://github.com/mahmoud530/ToDoHive)
 
-### Personal Portfolio Website — Nov 2025
-*Front-End Developer*
-
-- Designed and developed a personal portfolio using HTML, CSS, and JavaScript to showcase projects and achievements.
-- Hosted live on GitHub Pages.
-- [View Demo](https://mahmoud530.github.io/MyPortfolio/)
-
 ---
 
 ## Courses and Student Activities
